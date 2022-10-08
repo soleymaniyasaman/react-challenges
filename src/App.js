@@ -8,11 +8,12 @@ import ToggleWindowEvent from './06-window-event/ToggleWindowEvent'
 import ColorPicker from './07-color-picker/ColorPicker'
 import PixelArt from './08-pixel-art/PixelArt'
 import SimpleCalculator from './09-simple-calc/SimpleCalc'
+import FocusInput from './10-focus-input/FocusInput'
 
 function App() {
   return (
     <div className='App'>
-      <SimpleCalculator />
+      <FocusInput />
     </div>
   )
 }
